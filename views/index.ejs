@@ -1,0 +1,476 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Your site description here">
+  <meta name="keywords" content="keyword1, keyword2, keyword3">
+  <meta name="author" content="Your Name">
+  <title>SecureOut</title>
+  <link rel="icon" type="image/x-icon" href="/Secureout-removebg-preview.png">
+
+  <link href="../assets/fonts.css" rel="stylesheet"> <!-- Link to your custom fonts -->
+  <link href="../assets/style.css" rel="stylesheet"> <!-- Your Tailwind CSS -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <style>
+    #preloader{
+        background: #0A1626 url("../assets/preloader\ \(2\).png") no-repeat center center;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+  </style>
+
+</head>
+<body class="text-[#F2F2F2] w-full h-screen font-probert bg-[#0A1626]">
+    <!-- Main content area -->
+    <main>
+
+        <!-- preloader starts -->
+        <div id="preloader">
+        </div>
+       
+        <!-- preloader ends  -->
+      
+        <!-- <div class="w-16 h-16 border-8 border-dashed rounded-full animate-spin border-blue-600"></div> -->
+
+<!-- Navbar -->
+<div class="flex justify-center items-center  text-xs sm:text-sm md:text-lg p-6 md:p-3">
+    <header class="navbar bg-[#0A1626] w-[90%] smw-[90%] md:w-[70%] border-2 border-[#0583F2] rounded-full shadow-lg">
+        <div class="container flex justify-around mx-auto px-4">
+            <a href="/" aria-label="Home" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">Home</a>
+            <a href="/about" aria-label="About Us" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">About</a>
+            <a href="/projects" aria-label="Projects" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">Projects</a>
+            <a href="/services" aria-label="Services" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">Services</a>
+            <a href="/team" aria-label="Team" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">Team</a>
+            <a href="/contact" aria-label="Contact Us" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">Contact Us</a>
+        </div>
+    </header>
+</div>
+<!-- Navbar ends -->
+
+ <!-- Home | About Us | Projects | Services | Team | Partnerships | Contact Us -->
+<!-- Hero Section -->
+<!-- Ensure this is in the correct parent element -->
+<div class="flex flex-1 w-full flex-col items-center justify-center bg-[#0A1626] p-10 text-center px-4 py-5  text-[#F2F2F2]">
+    <img src="../assets/picture3.png" alt="" class="">
+    
+    <h2 class="mx-auto mt-12 max-w-xl text-lg leading-7 text-[#F2F2F2]">
+        Experience the future of insurance with our cutting-edge AI tool. From underwriting to claims processing, our intelligent system streamlines and enhances every aspect of your insurance operations.
+    </h2>
+
+    <!-- Add margin classes directly to the container of the button -->
+    <div class="py-4"> <!-- Adjust mt-16 as needed -->
+        <button type="button" class="w-40 text-white bg-[#0583F2] h-10 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
+            Contact Us
+        </button>
+    </div>
+</div>
+
+
+
+
+               <!-- Services Section -->
+               <section class="py-8 lg:py-16 bg-[#0A1626] text-[#F2F2F2]">
+                <div class="max-w-screen-xl mx-auto px-4 lg:px-8">
+                    <div class="flex items-center justify-center">
+                        <h2 class="text-3xl font-extrabold mb-8">Services</h2>
+                    </div>
+                    
+                    <div class="grid gap-8 lg:grid-cols-3">
+                        <!-- Service Card 1 -->
+                        <div class="bg-[#1E2A38] p-6 rounded-lg border border-[#0583F2] shadow-lg text-center">
+                            <div class="mb-4 flex items-center justify-center">
+                                <img src="https://via.placeholder.com/50" alt="Service 1 Icon" class="h-12 w-12">
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Web Development</h3>
+                            <p class="text-sm text-gray-300">
+                                We build responsive and dynamic websites that cater to your business needs.
+                            </p>
+                        </div>
+    
+                        <!-- Service Card 2 -->
+                        <div class="bg-[#1E2A38] p-6 rounded-lg border border-[#0583F2] shadow-lg text-center">
+                            <div class="mb-4 flex items-center justify-center">
+                                <img src="https://via.placeholder.com/50" alt="Service 2 Icon" class="h-12 w-12">
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Mobile App Development</h3>
+                            <p class="text-sm text-gray-300">
+                                Our team creates user-friendly mobile applications for both Android and iOS platforms.
+                            </p>
+                        </div>
+    
+                        <!-- Service Card 3 -->
+                        <div class="bg-[#1E2A38] p-6 rounded-lg border border-[#0583F2] shadow-lg text-center">
+                            <div class="mb-4 flex items-center justify-center">
+                                <img src="https://via.placeholder.com/50" alt="Service 3 Icon" class="h-12 w-12">
+                            </div>
+                            <h3 class="text-xl font-bold mb-2">Data Analysis</h3>
+                            <p class="text-sm text-gray-300">
+                                We provide comprehensive data analysis services to help you make informed decisions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Services Section ends -->
+
+        <!-- Projects Section -->
+        <section class="py-8 lg:py-16 bg-[#0A1626] text-[#F2F2F2]">
+            <div class="max-w-screen-xl mx-auto px-4 lg:px-8">
+                <div class="flex items-center justify-center">
+                    <h2 class="text-3xl font-extrabold mb-8">Projects</h2>
+                </div>
+                
+                <div class="grid gap-8 lg:grid-cols-3">
+                    <!-- Project Card 1 -->
+                    <div class="bg-[#1E2A38] p-6 rounded-lg border border-[#0583F2] shadow-lg">
+                        <div class="mb-4 flex items-center gap-3">
+                            <a href="#" class="text-xl font-bold text-[#F2F2F2] hover:text-[#0583F2]">Project One</a>
+                            <div class="bg-[#0583F2] text-xs font-medium text-white rounded-full py-1 px-2">
+                                <div>Public</div>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-300">
+                            Project One is a comprehensive tool for managing tasks and teams efficiently.
+                        </p>
+                        <div class="mt-4 flex items-center gap-5">
+                            <div class="flex items-center gap-1">
+                                <span class="h-3 w-3 rounded-full bg-[#3b82f6]"></span>
+                                <p class="text-xs text-gray-300">JavaScript</p>
+                            </div>
+                            <div class="flex items-center gap-1">
+                                <svg class="h-4 w-4 text-yellow-400" fill="currentColor" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd"></path>
+                                </svg>
+                                <p class="text-xs text-gray-300">3,480</p>
+                            </div>
+                            <div class="flex items-center gap-1">
+                                <svg class="h-4 w-4 text-green-300" fill="currentColor" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path>
+                                </svg>
+                                <p class="text-xs text-gray-300">Verified</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project Card 2 -->
+                    <div class="bg-[#1E2A38] p-6 rounded-lg border border-[#0583F2] shadow-lg">
+                        <div class="mb-4 flex items-center gap-3">
+                            <a href="#" class="text-xl font-bold text-[#F2F2F2] hover:text-[#0583F2]">Project Two</a>
+                            <div class="bg-[#0583F2] text-xs font-medium text-white rounded-full py-1 px-2">
+                                <div>Private</div>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-300">
+                            Project Two is an AI-powered tool that helps automate complex workflows.
+                        </p>
+                        <div class="mt-4 flex items-center gap-5">
+                            <div class="flex items-center gap-1">
+                                <span class="h-3 w-3 rounded-full bg-[#EF4444]"></span>
+                                <p class="text-xs text-gray-300">Python</p>
+                            </div>
+                            <div class="flex items-center gap-1">
+                                <svg class="h-4 w-4 text-yellow-400" fill="currentColor" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd"></path>
+                                </svg>
+                                <p class="text-xs text-gray-300">2,150</p>
+                            </div>
+                            <div class="flex items-center gap-1">
+                                <svg class="h-4 w-4 text-green-300" fill="currentColor" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path>
+                                </svg>
+                                <p class="text-xs text-gray-300">Verified</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project Card 3 -->
+                    <div class="bg-[#1E2A38] p-6 rounded-lg border border-[#0583F2] shadow-lg">
+                        <div class="mb-4 flex items-center gap-3">
+                            <a href="#" class="text-xl font-bold text-[#F2F2F2] hover:text-[#0583F2]">Project Three</a>
+                            <div class="bg-[#0583F2] text-xs font-medium text-white rounded-full py-1 px-2">
+                                <div>Public</div>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-300">
+                            Project Three offers an intuitive dashboard for managing sales and marketing campaigns.
+                        </p>
+                        <div class="mt-4 flex items-center gap-5">
+                            <div class="flex items-center gap-1">
+                                <span class="h-3 w-3 rounded-full bg-[#10B981]"></span>
+                                <p class="text-xs text-gray-300">Ruby</p>
+                            </div>
+                            <div class="flex items-center gap-1">
+                                <svg class="h-4 w-4 text-yellow-400" fill="currentColor" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd"></path>
+                                </svg>
+                                <p class="text-xs text-gray-300">5,892</p>
+                            </div>
+                            <div class="flex items-center gap-1">
+                                <svg class="h-4 w-4 text-green-300" fill="currentColor" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd" d="M8.603 3.799A4.49 4.49 0 0112 2.25c1.357 0 2.573.6 3.397 1.549a4.49 4.49 0 013.498 1.307 4.491 4.491 0 011.307 3.497A4.49 4.49 0 0121.75 12a4.49 4.49 0 01-1.549 3.397 4.491 4.491 0 01-1.307 3.497 4.491 4.491 0 01-3.497 1.307A4.49 4.49 0 0112 21.75a4.49 4.49 0 01-3.397-1.549 4.49 4.49 0 01-3.498-1.306 4.491 4.491 0 01-1.307-3.498A4.49 4.49 0 012.25 12c0-1.357.6-2.573 1.549-3.397a4.49 4.49 0 011.307-3.497 4.49 4.49 0 013.497-1.307zm7.007 6.387a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd"></path>
+                                </svg>
+                                <p class="text-xs text-gray-300">Verified</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projects Section ends -->
+      
+        <!-- team section starts  -->
+      
+        <div class="w-full bg-[#0A1626]">
+            <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
+                <div class="text-center pb-12">
+                    <h2 class="text-base font-bold text-[#0583F2]">
+                        Meet our talented team members
+                    </h2>
+                    <h1 class="font-bold text-3xl md:text-4xl lg:text-5xl font-heading text-white">
+                        The stars of our company
+                    </h1>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    <div class="w-full bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row">
+                        <div class="w-full md:w-2/5 h-80">
+                            <img class="object-center object-cover w-full h-full" src="../assets/pics/lashari.jpg">
+                        </div>
+                        <div class="w-full md:w-3/5 text-left p-6 md:p-4 space-y-2">
+                            <p class="text-xl text-white font-bold">Mohsin Lashari</p>
+                            <p class="text-base text-[#0583F2] font-normal">Software Engineer</p>
+                            <p class="text-base leading-relaxed text-gray-300 font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="flex justify-start space-x-2">
+                                <a href="#" class="text-[#0583F2] hover:text-[#0583F2]">
+                                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+                                        <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="text-[#0583F2] hover:text-[#0583F2]">
+                                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+                                        <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="text-[#0583F2] hover:text-[#0583F2]">
+                                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 19.556a8.251 8.251 0 004.29 1.249" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="w-full bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row">
+                        <div class="w-full md:w-2/5 h-80">
+                            <img class="object-center object-cover w-full h-full" src="../assets/pics/khizar.jpg" alt="photo">
+                        </div>
+                        <div class="w-full md:w-3/5 text-left p-6 md:p-4 space-y-2">
+                            <p class="text-xl text-white font-bold">Olivia Lee</p>
+                            <p class="text-base text-[#0583F2] font-normal">Khizar Ali Shah</p>
+                            <p class="text-base leading-relaxed text-gray-300 font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="flex justify-start space-x-2">
+                                <a href="#" class="text-[#0583F2] hover:text-[#0583F2]">
+                                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+                                        <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="text-[#0583F2] hover:text-[#0583F2]">
+                                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+                                        <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="text-[#0583F2] hover:text-[#0583F2]">
+                                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 19.556a8.251 8.251 0 004.29 1.249" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="w-full bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row">
+                        <div class="w-full md:w-2/5 h-80">
+                            <img class="object-center object-cover w-full h-full" src="../assets/pics/wahab.jpg" alt="photo">
+                        </div>
+                        <div class="w-full md:w-3/5 text-left p-6 md:p-4 space-y-2">
+                            <p class="text-xl text-white font-bold">Wahab</p>
+                            <p class="text-base text-[#0583F2] font-normal">Product Manager</p>
+                            <p class="text-base leading-relaxed text-gray-300 font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="flex justify-start space-x-2">
+                                <a href="#" class="text-[#0583F2] hover:text-[#0583F2]">
+                                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+                                        <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="text-[#0583F2] hover:text-[#0583F2]">
+                                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+                                        <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="text-[#0583F2] hover:text-[#0583F2]">
+                                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 19.556a8.251 8.251 0 004.29 1.249" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="w-full bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col md:flex-row">
+                        <div class="w-full md:w-2/5 h-80">
+                            <img class="object-center object-cover w-full h-full" src="../assets/pics/mazhar.jpg" alt="photo">
+                        </div>
+                        <div class="w-full md:w-3/5 text-left p-6 md:p-4 space-y-2">
+                            <p class="text-xl text-white font-bold">Mazhar Saeed</p>
+                            <p class="text-base text-[#0583F2] font-normal">Product Manager</p>
+                            <p class="text-base leading-relaxed text-gray-300 font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <div class="flex justify-start space-x-2">
+                                <a href="#" class="text-[#0583F2] hover:text-[#0583F2]">
+                                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+                                        <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="text-[#0583F2] hover:text-[#0583F2]">
+                                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+                                        <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                                <a href="#" class="text-[#0583F2] hover:text-[#0583F2]">
+                                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 19.556a8.251 8.251 0 004.29 1.249" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+  
+                    
+                </div>
+            </section>    
+            <div class="flex items-center justify-center py-4 mt-20"> <!-- Adjust mt-20 as needed -->
+                <a href="/team" class="w-40 text-white bg-[#0583F2] h-10 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center justify-center">
+                    See more
+                </a>
+            </div>
+            
+        </div>
+
+        <!-- team section ends  -->
+        
+
+        <!-- Testimonials Section -->
+<section class="py-8 lg:py-16 bg-[#0A1626] text-[#F2F2F2]">
+    <div class="max-w-screen-xl mx-auto px-4 lg:px-8">
+        <div class="text-center pb-12">
+            <h2 class="text-base font-bold text-[#0583F2]">What Our Clients Say</h2>
+            <h1 class="font-bold text-3xl md:text-4xl lg:text-5xl font-heading text-white">Testimonials</h1>
+        </div>
+        
+        <div class="grid gap-8 lg:grid-cols-2">
+            <!-- Testimonial Card 1 -->
+            <div class="bg-[#1E2A38] p-6 rounded-lg border border-[#0583F2] shadow-lg">
+                <div class="flex items-center gap-4 mb-4">
+                    <img src="https://via.placeholder.com/60" alt="Client Photo" class="w-16 h-16 rounded-full object-cover">
+                    <div>
+                        <p class="text-lg font-semibold text-[#F2F2F2]">Alice Johnson</p>
+                        <p class="text-sm text-[#0583F2]">CEO, Tech Innovations</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-300">
+                    "The team at this company went above and beyond to deliver a product that exceeded our expectations. Their attention to detail and commitment to quality are unparalleled."
+                </p>
+            </div>
+            
+            <!-- Testimonial Card 2 -->
+            <div class="bg-[#1E2A38] p-6 rounded-lg border border-[#0583F2] shadow-lg">
+                <div class="flex items-center gap-4 mb-4">
+                    <img src="https://via.placeholder.com/60" alt="Client Photo" class="w-16 h-16 rounded-full object-cover">
+                    <div>
+                        <p class="text-lg font-semibold text-[#F2F2F2]">John Smith</p>
+                        <p class="text-sm text-[#0583F2]">Marketing Director, Creative Solutions</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-300">
+                    "Their innovative approach and excellent support made working with them a pleasure. We saw significant improvements in our project outcomes thanks to their expertise."
+                </p>
+            </div>
+
+            <!-- Testimonial Card 3 -->
+            <div class="bg-[#1E2A38] p-6 rounded-lg border border-[#0583F2] shadow-lg">
+                <div class="flex items-center gap-4 mb-4">
+                    <img src="https://via.placeholder.com/60" alt="Client Photo" class="w-16 h-16 rounded-full object-cover">
+                    <div>
+                        <p class="text-lg font-semibold text-[#F2F2F2]">Emily Davis</p>
+                        <p class="text-sm text-[#0583F2]">Product Manager, FinTech Experts</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-300">
+                    "I am thoroughly impressed with the level of professionalism and expertise demonstrated by this team. Their solutions were not only effective but also highly innovative."
+                </p>
+            </div>
+            
+            <!-- Testimonial Card 4 -->
+            <div class="bg-[#1E2A38] p-6 rounded-lg border border-[#0583F2] shadow-lg">
+                <div class="flex items-center gap-4 mb-4">
+                    <img src="https://via.placeholder.com/60" alt="Client Photo" class="w-16 h-16 rounded-full object-cover">
+                    <div>
+                        <p class="text-lg font-semibold text-[#F2F2F2]">Michael Brown</p>
+                        <p class="text-sm text-[#0583F2]">Founder, Startup Inc.</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-300">
+                    "Working with this company has been a fantastic experience. Their dedication and proactive approach have greatly contributed to our project's success."
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Testimonials Section ends -->
+
+        
+
+
+    </main>
+    <!-- Main Content ends -->
+
+<!-- Footer -->
+<footer class="bg-[#0A1626] py-6 text-[#F2F2F2]">
+    <div class="max-w-screen-xl mx-auto px-4 lg:px-8 flex flex-col md:flex-row items-center justify-between">
+        <p class="text-sm">&copy; 2024 Your Company Name. All rights reserved.</p>
+        <div class="flex gap-4 mt-4 md:mt-0">
+            <a href="#" class="text-[#F2F2F2] hover:text-[#0583F2]">Privacy Policy</a>
+            <a href="#" class="text-[#F2F2F2] hover:text-[#0583F2]">Terms of Service</a>
+            <a href="#" class="text-[#F2F2F2] hover:text-[#0583F2]">Contact Us</a>
+        </div>
+        <div class="flex gap-4 mt-4 md:mt-0">
+            <a href="https://www.facebook.com/yourprofile" class="text-[#F2F2F2] hover:text-[#0583F2]" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/yourprofile" class="text-[#F2F2F2] hover:text-[#0583F2]" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/yourprofile" class="text-[#F2F2F2] hover:text-[#0583F2]" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.instagram.com/yourprofile" class="text-[#F2F2F2] hover:text-[#0583F2]" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+<!-- Footer ends -->
+
+<script src="../assets/file.js"></script>
+
+</body>
+</html>
+
+

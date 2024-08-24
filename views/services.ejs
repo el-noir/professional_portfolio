@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Your site description here">
+  <meta name="keywords" content="keyword1, keyword2, keyword3">
+  <meta name="author" content="Your Name">
+
+  <link href="../assets/fonts.css" rel="stylesheet"> <!-- Link to your custom fonts -->
+  <link href="../assets/style.css" rel="stylesheet"> <!-- Your Tailwind CSS -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    #preloader{
+        background: #0A1626 url("../assets/preloader\ \(2\).png") no-repeat center center;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+  </style>
+
+</head>
+<body class="text-[#F2F2F2] w-full h-screen font-probert bg-[#0A1626]">
+    <!-- Main content area -->
+    <main>
+
+        <!-- preloader starts -->
+        <div id="preloader">
+        </div>
+       
+        <!-- preloader ends  -->
+        <!-- Navbar -->
+        <div class="flex justify-center items-center  text-xs sm:text-sm md:text-lg p-6 md:p-3">
+            <header class="navbar bg-[#0A1626] w-[90%] smw-[90%] md:w-[70%] border-2 border-[#0583F2] rounded-full shadow-lg">
+                <div class="container flex justify-around mx-auto px-4">
+                    <a href="/" aria-label="Home" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">Home</a>
+                    <a href="/about" aria-label="About Us" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">About</a>
+                    <a href="/projects" aria-label="Projects" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">Projects</a>
+                    <a href="/services" aria-label="Services" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">Services</a>
+                    <a href="/team" aria-label="Team" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">Team</a>
+                    <a href="/contact" aria-label="Contact Us" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">Contact Us</a>
+                </div>
+            </header>
+        </div>
+        <!-- Navbar ends -->
+
+     <!-- Services Section -->
+
+<section class="py-20 lg:py-[120px] bg-[#0A1626] mb-40"> <!-- Increased the bottom margin to mb-40 -->
+    <div class="container mx-auto w-[85%]"> <!-- Adjusted the container width to match the navbar -->
+
+        <div class="flex flex-col items-center text-center">
+            <h2 class="text-base font-bold text-[#0583F2]">
+                What are 
+            </h2>
+            <h2 class="text-4xl sm:text-5xl font-bold text-[#F2F2F2] mb-8">Our Services</h2>
+            <p class="text-lg text-[#c2c2c2] max-w-2xl mb-12">
+                We provide a wide range of services tailored to meet your needs. Our team of experts is dedicated to delivering high-quality solutions with a focus on innovation and excellence.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Service Items -->
+             <!-- Service Item 1 -->
+             <div class="bg-[#111b29] border border-[#0583F2] p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                <div class="text-[#0583F2] mb-6">
+                    <i class="fas fa-laptop-code text-5xl"></i>
+                </div>
+                <h3 class="text-2xl text-[#F2F2F2] font-semibold mb-4">Web Development</h3>
+                <p class="text-[#c2c2c2]">
+                    Our team builds responsive and scalable websites using the latest technologies to ensure your online presence stands out.
+                </p>
+            </div>
+
+            <!-- Service Item 2 -->
+            <div class="bg-[#111b29] border border-[#0583F2] p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                <div class="text-[#0583F2] mb-6">
+                    <i class="fas fa-shield-alt text-5xl"></i>
+                </div>
+                <h3 class="text-2xl text-[#F2F2F2] font-semibold mb-4">Cybersecurity</h3>
+                <p class="text-[#c2c2c2]">
+                    Protect your digital assets with our top-notch cybersecurity services, designed to keep your data safe and secure.
+                </p>
+            </div>
+
+            <!-- Service Item 3 -->
+            <div class="bg-[#111b29] border border-[#0583F2] p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                <div class="text-[#0583F2] mb-6">
+                    <i class="fas fa-cloud text-5xl"></i>
+                </div>
+                <h3 class="text-2xl text-[#F2F2F2] font-semibold mb-4">Cloud Solutions</h3>
+                <p class="text-[#c2c2c2]">
+                    Leverage the power of the cloud with our reliable and scalable cloud services, tailored to meet your business needs.
+                </p>
+            </div>
+
+            <!-- Service Item 4 -->
+            <div class="bg-[#111b29] border border-[#0583F2] p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                <div class="text-[#0583F2] mb-6">
+                    <i class="fas fa-mobile-alt text-5xl"></i>
+                </div>
+                <h3 class="text-2xl text-[#F2F2F2] font-semibold mb-4">Mobile Development</h3>
+                <p class="text-[#c2c2c2]">
+                    We create intuitive and responsive mobile applications to help you reach your audience on any device.
+                </p>
+            </div>
+
+            <!-- Service Item 5 -->
+            <div class="bg-[#111b29] border border-[#0583F2] p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                <div class="text-[#0583F2] mb-6">
+                    <i class="fas fa-search-dollar text-5xl"></i>
+                </div>
+                <h3 class="text-2xl text-[#F2F2F2] font-semibold mb-4">SEO Optimization</h3>
+                <p class="text-[#c2c2c2]">
+                    Enhance your online visibility with our expert SEO services, designed to drive traffic and increase engagement.
+                </p>
+            </div>
+
+            <!-- Service Item 6 -->
+            <div class="bg-[#111b29] border border-[#0583F2] p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+                <div class="text-[#0583F2] mb-6">
+                    <i class="fas fa-analytics text-5xl"></i>
+                </div>
+                <h3 class="text-2xl text-[#F2F2F2] font-semibold mb-4">Data Analytics</h3>
+                <p class="text-[#c2c2c2]">
+                    Unlock the power of data with our analytics services, helping you make informed decisions and drive business success.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+    <!-- Main content area ends -->
+
+    <!-- Footer -->
+<footer class="bg-gray-800 py-6 text-[#F2F2F2]" >
+    <div class="max-w-screen-xl mx-auto px-4 lg:px-8 flex flex-col md:flex-row items-center justify-between">
+        <p class="text-sm">&copy; 2024 Your Company Name. All rights reserved.</p>
+        <div class="flex gap-4 mt-4 md:mt-0">
+            <a href="#" class="text-[#F2F2F2] hover:text-[#0583F2]">Privacy Policy</a>
+            <a href="#" class="text-[#F2F2F2] hover:text-[#0583F2]">Terms of Service</a>
+            <a href="#" class="text-[#F2F2F2] hover:text-[#0583F2]">Contact Us</a>
+        </div>
+        <div class="flex gap-4 mt-4 md:mt-0">
+            <a href="https://www.facebook.com/yourprofile" class="text-[#F2F2F2] hover:text-[#0583F2]" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/yourprofile" class="text-[#F2F2F2] hover:text-[#0583F2]" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/yourprofile" class="text-[#F2F2F2] hover:text-[#0583F2]" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.instagram.com/yourprofile" class="text-[#F2F2F2] hover:text-[#0583F2]" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+<!-- Footer ends -->
+
+      <script src="../assets/file.js"></script>
+</body>
+</html>
+
+
+

@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Your site description here">
+  <meta name="keywords" content="keyword1, keyword2, keyword3">
+  <meta name="author" content="Your Name">
+
+  <link href="../assets/fonts.css" rel="stylesheet"> <!-- Link to your custom fonts -->
+  <link href="../assets/style.css" rel="stylesheet"> <!-- Your Tailwind CSS --> 
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    #preloader{
+        background: #0A1626 url("../assets/preloader\ \(2\).png") no-repeat center center;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+  </style>
+
+</head>
+<body class="text-[#F2F2F2] w-full h-screen font-probert bg-[#0A1626]">
+    <!-- Main content area -->
+    <main>
+
+        <!-- preloader starts -->
+        <div id="preloader">
+        </div>
+       
+        <!-- preloader ends  -->
+        <!-- Navbar -->
+        <div class="flex justify-center items-center  text-xs sm:text-sm md:text-lg p-6 md:p-3">
+            <header class="navbar bg-[#0A1626] w-[90%] smw-[90%] md:w-[70%] border-2 border-[#0583F2] rounded-full shadow-lg">
+                <div class="container flex justify-around mx-auto px-4">
+                    <a href="/" aria-label="Home" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">Home</a>
+                    <a href="/about" aria-label="About Us" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">About</a>
+                    <a href="/projects" aria-label="Projects" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">Projects</a>
+                    <a href="/services" aria-label="Services" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">Services</a>
+                    <a href="/team" aria-label="Team" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">Team</a>
+                    <a href="/contact" aria-label="Contact Us" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">Contact Us</a>
+                </div>
+            </header>
+        </div>
+        <!-- Navbar ends -->
+
+
+
+        <div class="container my-12 mx-auto px-4 md:px-6">
+            <section class="mb-32 text-neutral-800">
+                <div class="text-center md:max-w-xl lg:max-w-3xl mx-auto">
+                    <h2 class="text-base font-bold text-[#0583F2]">
+                        You can
+                    </h2>
+                    <h2 class="mb-12 text-3xl font-bold text-teal-700">
+                        Contact Us
+                    </h2>
+                </div>
+        
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                    <!-- Contact Form -->
+                    <form class="mb-12 w-full">
+                        <div class="form-group mb-6 w-full">
+                            <input type="text" class="px-4 py-3 border w-full outline-none rounded-md focus:ring focus:ring-teal-300" placeholder="Name" />
+                        </div>
+                        <div class="form-group mb-6 w-full">
+                            <input type="email" class="px-4 py-3 border w-full outline-none rounded-md focus:ring focus:ring-teal-300" placeholder="Email address" />
+                        </div>
+                        <div class="form-group mb-6 w-full">
+                            <textarea class="px-4 py-3 border w-full outline-none rounded-md focus:ring focus:ring-teal-300" rows="3" placeholder="Message"></textarea>
+                        </div>
+                        <div class="flex justify-center">
+                            <button type="submit" class="inline-block rounded-md bg-teal-500 px-6 py-3 font-medium text-white hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-300 transition duration-300 ease-in-out">
+                                Send
+                            </button>
+                        </div>
+                    </form>
+               
+                
+        
+                    <div class="container my-12 mx-auto px-4 md:px-6">
+                        <section class="text-neutral-800">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                                <!-- Technical Support -->
+                                <div class="flex items-center justify-center mb-12">
+                                    <div class="flex items-start">
+                                        <div class="shrink-0">
+                                            <div class="inline-block rounded-full bg-teal-100 p-4 text-[#0583F2]">
+                                                <!-- SVG Icon for Support -->
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17l-3-3m0 0l-3 3m3-3v8M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="ml-6">
+                                            <p class="mb-2 font-bold text-teal-700">Technical Support</p>
+                                            <p class="text-neutral-600">support@example.com</p>
+                                            <p class="text-neutral-600">+1 234-567-89</p>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <!-- Sales -->
+                                <div class="flex items-center justify-center mb-12">
+                                    <div class="flex items-start">
+                                        <div class="shrink-0">
+                                            <div class="inline-block rounded-full bg-teal-100 p-4 text-[#0583F2]">
+                                                <!-- SVG Icon for Sales -->
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 " fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M9 16h6"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="ml-6">
+                                            <p class="mb-2 font-bold text-teal-700">Sales Inquiries</p>
+                                            <p class="text-neutral-600">sales@example.com</p>
+                                            <p class="text-neutral-600">+1 234-567-89</p>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <!-- Press -->
+                                <div class="flex items-center justify-center mb-12">
+                                    <div class="flex items-start">
+                                        <div class="shrink-0">
+                                            <div class="inline-block rounded-full bg-teal-100 p-4 text-[#0583F2]">
+                                                <!-- SVG Icon for Press -->
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="ml-6">
+                                            <p class="mb-2 font-bold text-teal-700">Press Relations</p>
+                                            <p class="text-neutral-600">press@example.com</p>
+                                            <p class="text-neutral-600">+1 234-567-89</p>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <!-- Bug Report -->
+                                <div class="flex items-center justify-center mb-12">
+                                    <div class="flex items-start">
+                                        <div class="shrink-0">
+                                            <div class="inline-block rounded-full bg-teal-100 p-4 text-[#0583F2]">
+                                                <!-- SVG Icon for Bug Report -->
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-4-4M12 2v3M6 8l-3 3m0 0l3 3m-3-3h3m7 10v3m6-14l3 3m0 0l-3 3m3-3h-3"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="ml-6">
+                                            <p class="mb-2 font-bold text-teal-700">Report a Bug</p>
+                                            <p class="text-neutral-600">bugs@example.com</p>
+                                            <p class="text-neutral-600">+1 234-567-89</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    
+                    
+                </div>
+            </section>
+        </div>
+        
+        
+
+
+</main>
+<!-- Main Content ends -->
+
+<!-- Footer -->
+<footer class="bg-[#0A1626] py-6 text-[#F2F2F2]">
+<div class="max-w-screen-xl mx-auto px-4 lg:px-8 flex flex-col md:flex-row items-center justify-between">
+    <p class="text-sm">&copy; 2024 Your Company Name. All rights reserved.</p>
+    <div class="flex gap-4 mt-4 md:mt-0">
+        <a href="#" class="text-[#F2F2F2] hover:text-[#0583F2]">Privacy Policy</a>
+        <a href="#" class="text-[#F2F2F2] hover:text-[#0583F2]">Terms of Service</a>
+        <a href="#" class="text-[#F2F2F2] hover:text-[#0583F2]">Contact Us</a>
+    </div>
+    <div class="flex gap-4 mt-4 md:mt-0">
+        <a href="https://www.facebook.com/yourprofile" class="text-[#F2F2F2] hover:text-[#0583F2]" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/yourprofile" class="text-[#F2F2F2] hover:text-[#0583F2]" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/yourprofile" class="text-[#F2F2F2] hover:text-[#0583F2]" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://www.instagram.com/yourprofile" class="text-[#F2F2F2] hover:text-[#0583F2]" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+</div>
+</footer>
+<!-- Footer ends -->
+<script src="../assets/file.js"></script>
+
+</body>
+</html>
+
+
+
+

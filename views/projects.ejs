@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Your site description here">
+  <meta name="keywords" content="keyword1, keyword2, keyword3">
+  <meta name="author" content="Your Name">
+
+  <link href="../assets/fonts.css" rel="stylesheet"> <!-- Link to your custom fonts -->
+  <link href="../assets/style.css" rel="stylesheet"> <!-- Your Tailwind CSS -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    #preloader{
+        background: #0A1626 url("../assets/preloader\ \(2\).png") no-repeat center center;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+  </style>
+
+</head>
+<body class="text-[#F2F2F2] w-full h-screen font-probert bg-[#0A1626]">
+    <!-- Main content area -->
+    <main>
+
+        <!-- preloader starts -->
+        <div id="preloader">
+        </div>
+       
+        <!-- preloader ends  -->
+        <!-- Navbar -->
+        <div class="flex justify-center items-center  text-xs sm:text-sm md:text-lg p-6 md:p-3">
+            <header class="navbar bg-[#0A1626] w-[90%] smw-[90%] md:w-[70%] border-2 border-[#0583F2] rounded-full shadow-lg">
+                <div class="container flex justify-around mx-auto px-4">
+                    <a href="/" aria-label="Home" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">Home</a>
+                    <a href="/about" aria-label="About Us" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">About</a>
+                    <a href="/projects" aria-label="Projects" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">Projects</a>
+                    <a href="/services" aria-label="Services" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">Services</a>
+                    <a href="/team" aria-label="Team" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">Team</a>
+                    <a href="/contact" aria-label="Contact Us" class="text-[#F2F2F2] font-bold hover:text-[#0583F2] cursor-pointer">Contact Us</a>
+                </div>
+            </header>
+        </div>
+        <!-- Navbar ends -->
+
+        <section class="bg-[#0A1626] dark:bg-[#0A1626] py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+            <div class="max-w-screen-md mb-8 lg:mb-16">
+                <h2 class="text-base font-bold text-[#0583F2]">
+                    We are proud of 
+                </h2>
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white dark:text-white">Our Projects</h2>
+                <p class="text-gray-400 sm:text-xl dark:text-gray-400">Explore our innovative projects that drive technology and innovation. Click the buttons below to view the GitHub repositories.</p>
+            </div>
+            <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <!-- Project 1 -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col items-center">
+                    <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#0583F2] lg:h-12 lg:w-12">
+                        <svg class="w-5 h-5 text-[#0A1626] lg:w-6 lg:h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+                        </svg>
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold text-white">Marketing</h3>
+                    <p class="text-gray-400 dark:text-gray-400 text-center">Plan it, create it, launch it. Collaborate seamlessly with all the organization and hit your marketing goals every month with our marketing plan.</p>
+                    <a href="https://github.com/your-username/marketing-project" target="_blank" class="mt-4 inline-flex items-center justify-center w-20 h-8 text-lg px-4 py-2  font-medium text-white bg-[#0583F2] rounded-lg shadow hover:bg-[#0469a0] focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400">
+                        Code
+                    </a>
+                </div>
+        
+                <!-- Project 2 -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col items-center">
+                    <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#0583F2] lg:h-12 lg:w-12">
+                        <svg class="w-5 h-5 text-[#0A1626] lg:w-6 lg:h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold text-white">Legal</h3>
+                    <p class="text-gray-400 dark:text-gray-400 text-center">Protect your organization, devices, and stay compliant with our structured workflows and custom permissions made for you.</p>
+                    <a href="https://github.com/your-username/legal-project" target="_blank" class="mt-4 inline-flex items-center justify-center px-4 py-2w-20 h-8 text-lg font-medium text-white bg-[#0583F2] rounded-lg shadow hover:bg-[#0469a0] focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400">
+                        Code
+                    </a>
+                </div>
+        
+                <!-- Project 3 -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col items-center">
+                    <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#0583F2] lg:h-12 lg:w-12">
+                        <svg class="w-5 h-5 text-[#0A1626] lg:w-6 lg:h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                            <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold text-white">Business Automation</h3>
+                    <p class="text-gray-400 dark:text-gray-400 text-center">Auto-assign tasks, send Slack messages, and much more. Now power up with hundreds of new templates to help you get started.</p>
+                    <a href="https://github.com/your-username/business-automation-project" target="_blank" class="mt-4 inline-flex items-center justify-center px-4 py-2 w-20 h-8 text-lg font-medium text-white bg-[#0583F2] rounded-lg shadow hover:bg-[#0469a0] focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400">
+                        Code
+                    </a>
+                </div>
+        
+                <!-- Project 4 -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col items-center">
+                    <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#0583F2] lg:h-12 lg:w-12">
+                        <svg class="w-5 h-5 text-[#0A1626] lg:w-6 lg:h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 4a6 6 0 110 12 6 6 0 010-12zM2.293 7.293A1 1 0 012.293 9h15.414a1 1 0 01.707-1.707A1 1 0 0018 6H2a1 1 0 00-.707 1.293zM18 14H2a1 1 0 00-.707 1.293A1 1 0 012 17h16a1 1 0 00.707-1.293A1 1 0 0018 14z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold text-white">Human Resources</h3>
+                    <p class="text-gray-400 dark:text-gray-400 text-center">Manage and track employee information and applications with ease. Customize and streamline your HR processes.</p>
+                    <a href="https://github.com/your-username/hr-project" target="_blank" class="mt-4 inline-flex items-center justify-center px-4 py-2 w-20 h-8 text-lg font-medium text-white bg-[#0583F2] rounded-lg shadow hover:bg-[#0469a0] focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400">
+                        Code
+                    </a>
+                </div>
+        
+                <!-- Project 5 -->
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col items-center">
+                    <div class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-[#0583F2] lg:h-12 lg:w-12">
+                        <svg class="w-5 h-5 text-[#0A1626] lg:w-6 lg:h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.293 4.293a1 1 0 00-1.414 1.414L6.586 8l-3.707 3.707a1 1 0 001.414 1.414L8 9.414l3.707 3.707a1 1 0 001.414-1.414L9.414 8l3.707-3.707a1 1 0 00-1.414-1.414L8 6.586 4.293 4.293z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="mb-2 text-xl font-bold text-white">Product Management</h3>
+                    <p class="text-gray-400 dark:text-gray-400 text-center">Track product development from conception to launch with our comprehensive product management tools.</p>
+                    <a href="https://github.com/your-username/product-management-project" target="_blank" class="mt-4 inline-flex items-center justify-center px-4 py-2 w-20 h-8 text-lg font-medium text-white bg-[#0583F2] rounded-lg shadow hover:bg-[#0469a0] focus:outline-none focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400">
+                        Code
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+
+
+        
+        
+
+    </main>
+    <!-- Main content area ends -->
+
+
+          <!-- Footer -->
+<footer class="bg-gray-800 py-6 text-[#F2F2F2]">
+    <div class="max-w-screen-xl mx-auto px-4 lg:px-8 flex flex-col md:flex-row items-center justify-between">
+        <p class="text-sm">&copy; 2024 Your Company Name. All rights reserved.</p>
+        <div class="flex gap-4 mt-4 md:mt-0">
+            <a href="#" class="text-[#F2F2F2] hover:text-[#0583F2]">Privacy Policy</a>
+            <a href="#" class="text-[#F2F2F2] hover:text-[#0583F2]">Terms of Service</a>
+            <a href="#" class="text-[#F2F2F2] hover:text-[#0583F2]">Contact Us</a>
+        </div>
+        <div class="flex gap-4 mt-4 md:mt-0">
+            <a href="https://www.facebook.com/yourprofile" class="text-[#F2F2F2] hover:text-[#0583F2]" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://twitter.com/yourprofile" class="text-[#F2F2F2] hover:text-[#0583F2]" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/yourprofile" class="text-[#F2F2F2] hover:text-[#0583F2]" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.instagram.com/yourprofile" class="text-[#F2F2F2] hover:text-[#0583F2]" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+<!-- Footer ends -->
+
+<script src="../assets/file.js"></script>
+</body>
+</html>
